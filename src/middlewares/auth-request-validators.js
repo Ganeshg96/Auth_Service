@@ -5,7 +5,7 @@ const validateUserAuth = (req, res, next) =>{
             data:{},
             message: "something went wrong",
             err: "email or password missing in the request"
-        })
+        });
     }
     next();
 }
