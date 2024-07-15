@@ -22,11 +22,6 @@ const prepareAndStartServer = () => {
             db.sequelize.sync({alert: true});
         }
 
-       
-
-        //const service= new UserService();
-        //const newToken= service.createToken({email:'ganesh@gmal.com',id:1});
-        //console.log("new token is", newToken);
     });
 }   
 
